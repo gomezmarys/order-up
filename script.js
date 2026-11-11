@@ -33,4 +33,4 @@ for (let i = 0; i < prices.length; i++) {
 }
 
 let totalText = document.querySelector("#total");
-totalText.textContent = "Total: $" + total;
+totalText.textContent = "Total: $" + total.toFixed(2);
